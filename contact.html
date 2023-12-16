@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MSWD</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style1.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body{
+        background-image: url(images/contact.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body bg-color="#B6C4B6">
+
+  <h2 align="center">Student Information System</h2>
+  
+  <nav>
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="registration.html">Registration</a></li>
+    <li><a href="login.html">Login</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="https://newerp.kluniversity.in/">ERP</a></li>
+    </ul>
+  </nav>
+     
+  <br><br>
+  <center>
+
+    <form method="post" action="#" >
+        <table>
+
+            <tr>
+                <td><input type="text" name="sname" placeholder="Enter Full Name" maxlength="30" required /></td>
+            </tr>
+
+            <tr>
+                <td><input type="email" name="emailid" placeholder="Enter mail-id" required/></td>
+            </tr>
+
+            <tr>
+                <td><input type="text" name="contactno" pattern="[6789][0-9]{9}" placeholder="Enter contact no" required />
+                <i style="color: red;">Must be 10 digits</i>
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="text" name="sub" placeholder="Enter Subject" required /></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <textarea name="msg" placeholder="Enter message" required></textarea>
+                </td>
+            </tr>
+
+            
+            <tr>
+                <td><input type="submit" value="Submit Query" class="button" /></td>
+                <td><input type="reset" value="Clear" class="button1"/></td>
+            </tr>
+
+        </table>
+
+    </form>
+    </center>
+
+    <br><br><br><br>
+
+    <center>
+        <ul class="social-icons">
+            <li><a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="fab fa-facebook"> facebook</i></a></li>
+            <li><a href="https://twitter.com/home" target="_blank" class="twitter"><i class="fab fa-twitter"> twitter</i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" class="instagram"><i class="fab fa-instagram"> instagram</i></a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank" class="linkedin"><i class="fab fa-linkedin"> linkedin</i></a></li>
+        </ul>
+    </center>
+</body>
+
+</html>
